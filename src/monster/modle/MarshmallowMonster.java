@@ -31,8 +31,12 @@ public class MarshmallowMonster
 		this.legCount = legCount;
 		this.eyebrowCount = eyebrowCount;
 		this.hasBellyButton = hasBellyButton;
-		
 	}
-	
+	public String toString()
+	{
+		String discription = "Monster says: Name is " + name;
+		
+		return discription;
+	}
 
 }
