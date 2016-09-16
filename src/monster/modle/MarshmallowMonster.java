@@ -38,5 +38,54 @@ public class MarshmallowMonster
 		
 		return discription;
 	}
-
+	public String getName()
+	{
+		return name;
+	}
+	public boolean getHasbellyButton()
+	{
+		return hasBellyButton;
+	}
+	public double geteyebrowCount()
+	{
+		return eyebrowCount;
+	}
+	public int getlegCount()
+	{
+		return legCount;
+	}
+	public int geteyeCount()
+	{
+		return eyeCount;
+	}
+	public int getnoseCount()
+	{
+		return noseCount;
+	}
+	
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	public void setHasbellyButton(boolean hasBellyButton)
+	{
+		this.hasBellyButton = hasBellyButton;
+	}
+	public void seteyebrowCount(double eyebrowCount)
+	{
+		this.eyebrowCount = eyebrowCount;
+	}
+	public void setlegCount(int legCount)
+	{
+		this.legCount = legCount;
+	}
+	public void seteyeCount(int eyeCount)
+	{
+		this.eyeCount = eyeCount;
+	}
+	public void setnoseCount(int noseCount)
+	{
+		this.noseCount = noseCount;
+	}
 }
